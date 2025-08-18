@@ -45,8 +45,9 @@ nav a:hover svg {
 }
 
 nav a.active {
-  background: var(--color-primary);
+  background: #898df0;
   border-color: transparent;
+  color: black;
 }
 
 /* Remove link translation; only icon interacts */
@@ -61,7 +62,7 @@ nav a.active svg {
 
 /* Keep active background on hover */
 nav a.active:hover {
-  background: var(--color-primary);
+  background: var(--color-primary-variant);
   border-color: transparent;
 }
 

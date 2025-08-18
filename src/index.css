@@ -2,10 +2,10 @@
   /* Aurora Glass Theme */
   --color-bg: #0c1fb7; /* Deep Indigo */
   --color-bg-variant: rgba(255, 255, 255, 0.05); /* Glassy transparent */
-  --color-primary: #A78BFA; /* Luminous Lavender */
+  --color-primary:  #FBF3D5; /* Luminous Lavender */
   --color-primary-variant: rgba(167, 139, 250, 0.4);
-  --color-secondary: #F472B6; /* Vibrant Pink */
-  --color-white: #FFFFFF;
+  --color-secondary: #a46f3a; /* Vibrant Pink */
+  --color-white: #ffeca8;
   --color-light: rgba(255, 255, 255, 0.7);
   --color-text: #FFFFFF;
   --color-tertiary: #1e1b3a;
