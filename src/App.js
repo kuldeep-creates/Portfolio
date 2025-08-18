@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 import LeetCodeExplorer from './components/pages/LeetCodeExplorer';
 import CodeForces from './components/pages/CodeForces';
 import ProjectPage from './components/pages/ProjectPage';
-import DynamicBackground from './components/DynamicBackground';
+import FloatingIcons from './components/FloatingIcons';
 
 const MainLayout = () => (
   <>
@@ -52,7 +52,7 @@ const ScrollToSection = () => {
 function App() {
   return (
     <div className="App-container">
-      <DynamicBackground />
+      <FloatingIcons />
       <Analytics />
       <Router>
         <div className="App">
