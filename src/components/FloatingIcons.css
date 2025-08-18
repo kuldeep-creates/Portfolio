@@ -1,50 +1,26 @@
 /* FloatingIcons.css */
-.floating-icons-wrapper {
+
+.sun-noise-bg {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    background: radial-gradient(circle at 50% 40%, #3024da, #153ce9, #1628b2, #0435a8);
     z-index: -1;
+    overflow: hidden;
+  }
+  
+  /* Noise texture overlay */
+  .sun-noise-bg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGZpbHRlciBpZD0ibm9pc2UiPjxmZVR1cmJ1bGVuY2UgYmFzZUZyZXF1ZW5jeT0iMC41IiBudW1PY3RhdmVzPSIxMDAiIHN0aXRjaFRpbGVzPSJzdGl0Y2giLz48L2ZpbHRlcj48cmVjdCB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbHRlcj0idXJsKCNub2lzZSkiLz48L3N2Zz4=");
+    opacity: 0.15; /* noise intensity */
     pointer-events: none;
-  }
-  
-  .bubble-icon {
-    position: absolute;
-    bottom: -5%;
-    opacity: 0.3;
-    filter: blur(2px);
-    animation: float-up linear infinite;
-  }
-  
-  .prefill {
-    position: absolute;
-  }
-  
-  @keyframes float-up {
-    0% {
-      transform: translateY(0) scale(0.9);
-      opacity: 0.3;
-    }
-    50% {
-      opacity: 0.5;
-    }
-    100% {
-      transform: translateY(-110vh) scale(1.2);
-      opacity: 0;
-    }
-  }
-  
-  /* Mobile optimization */
-  @media (max-width: 768px) {
-    .bubble-icon {
-      font-size: 1.2rem !important;
-    }
-  }
-  @media (max-width: 480px) {
-    .bubble-icon {
-      font-size: 1rem !important;
-    }
   }
   
