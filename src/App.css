@@ -1,0 +1,96 @@
+:root {
+  /* Consistent vertical spacing across all sections */
+  --section-vspace: 5rem;
+  --section-vspace-md: 4rem;
+  --section-vspace-sm: 3rem;
+
+  /* Gap between section heading and content */
+  --heading-gap: 2rem;
+  --heading-gap-md: 1.5rem;
+  --heading-gap-sm: 1rem;
+
+  /* Default vertical gap between sibling content elements */
+  --content-gap: 1.5rem;
+  --content-gap-md: 1rem;
+  --content-gap-sm: 0.8rem;
+}
+
+.App-container {
+  min-height: 100vh;
+  position: relative;
+  isolation: isolate;
+}
+
+.App {
+  position: relative;
+  background-color: transparent;
+  text-align: initial;
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+/* General Styles */
+section {
+  padding: var(--section-vspace) 0;
+  overflow: hidden;
+}
+
+/* Space between headings and their content across all sections */
+section > h2,
+section > h5 {
+  margin-bottom: var(--heading-gap);
+}
+
+/* Default vertical rhythm for content inside sections */
+section > * + *,
+section .container > * + * {
+  margin-top: var(--content-gap);
+}
+
+
+/* ==================== MEDIA QUERIES (TABLETS) ==================== */
+@media screen and (max-width: 1024px) {
+  section {
+    padding: var(--section-vspace-md) 0;
+  }
+  section > h2,
+  section > h5 {
+    margin-bottom: var(--heading-gap-md);
+  }
+  section > * + *,
+  section .container > * + * {
+    margin-top: var(--content-gap-md);
+  }
+  .hero-section-advanced {
+    padding-top: calc(var(--section-vspace-md) + 2rem);
+  }
+}
+
+/* ==================== MEDIA QUERIES (MOBILES) ==================== */
+@media screen and (max-width: 600px) {
+  section {
+    padding: var(--section-vspace-sm) 0;
+  }
+  section > h2,
+  section > h5 {
+    margin-bottom: var(--heading-gap-sm);
+  }
+  section > * + *,
+  section .container > * + * {
+    margin-top: var(--content-gap-sm);
+  }
+  .hero-section-advanced {
+    padding-top: calc(var(--section-vspace-sm) + 1.5rem);
+  }
+}
+
+/* Remove the default CRA header styles */
+.App-header {
+  display: none;
+}
