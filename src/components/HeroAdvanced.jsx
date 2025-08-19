@@ -42,7 +42,7 @@ const HeroAdvanced = () => {
       <div className="hero-content-advanced">
         <div className="hero-right">
           <div className="profile-image-container">
-            <img src={profilePic} alt="Kuldeep Jangid" className="profile-image"/>
+            <img src={profilePic} alt="Kuldeep Jangid" className="profile-image" />
           </div>
         </div>
         <div className="hero-left">
@@ -51,7 +51,7 @@ const HeroAdvanced = () => {
             <span className="highlight">CODE ENTHUSIAST</span>
           </h1>
           <p className="hero-subtitle-advanced">
-          I CRAFT ELEGANT AND EFFICIENT SOLUTIONS THAT TURN IDEAS INTO REALITY.BUILDING CLEAN, POWERFUL CODE THAT MAKES IDEAS REAL.
+            I CRAFT ELEGANT AND EFFICIENT SOLUTIONS THAT TURN IDEAS INTO REALITY.BUILDING CLEAN, POWERFUL CODE THAT MAKES IDEAS REAL.
           </p>
           <div className="hero-meta">
             <a
@@ -91,8 +91,14 @@ const HeroAdvanced = () => {
               </a>
             </MagneticButton>
             <MagneticButton>
-              <a href={cvPdf} className="btn btn-secondary" target="_blank" rel="noopener noreferrer" download>
-                 CV <FiFile className="cta-icon" />
+              <a
+                href={cvPdf}
+                className="btn btn-secondary"
+                target="_blank"
+                rel="noopener noreferrer"
+                download=" KULDEEP CV.pdf"
+              >
+                GET CV <FiFile className="cta-icon" />
               </a>
             </MagneticButton>
           </div>
