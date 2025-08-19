@@ -10,7 +10,7 @@
 
 .hero-content-advanced {
   position: relative;
-  z-index: 2;
+  z-index: 1;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
