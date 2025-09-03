@@ -1,29 +1,3 @@
-:root {
-  /* Aurora Glass Theme */
-  --color-bg: #0c1fb7; /* Deep Indigo */
-  --color-bg-variant: rgba(255, 255, 255, 0.05); /* Glassy transparent */
-  --color-primary:  #FBF3D5; /* Luminous Lavender */
-  --color-primary-variant: rgba(167, 139, 250, 0.4);
-  --color-secondary: #a46f3a; /* Vibrant Pink */
-  --color-white: #ffeca8;
-  --color-light: rgba(255, 255, 255, 0.7);
-  --color-text: #FFFFFF;
-  --color-tertiary: #1e1b3a;
-  --color-border: rgba(255, 255, 255, 0.1);
-
-  /* Transitions */
-  --transition: all 400ms ease;
-
-  /* Container Sizes */
-  --container-width-lg: 75%;
-  --container-width-md: 86%;
-  --container-width-sm: 90%;
-
-  /* Fonts */
-  --font-heading: 'Libertinus Sans', sans-serif;
-  --font-body: 'Roboto Mono', monospace;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -78,7 +52,7 @@ h4,
 h5 {
   font-family: var(--font-heading);
   font-weight: 700;
-  color: var(--color-white);
+  color: var(--color-text);
 }
 
 h1 {
@@ -98,18 +72,25 @@ h1 {
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
-  transition: var(--transition);
+  transition: all 0.3s ease;
 }
 
 .btn:hover {
-  background: var(--color-white);
+  background: var(--color-primary);
   color: var(--color-bg);
-  border-color: transparent;
+  transform: translateY(-3px);
 }
 
 .btn-primary {
   background: var(--color-primary);
   color: var(--color-bg);
+}
+
+.btn-primary:hover {
+  background: transparent;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  transform: translateY(-3px);
 }
 
 img {

@@ -96,7 +96,7 @@ const HeroAdvanced = () => {
                 className="btn btn-secondary"
                 target="_blank"
                 rel="noopener noreferrer"
-                download=" KULDEEP CV.pdf"
+                download="KULDEEP CV.pdf"
               >
                 GET CV <FiFile className="cta-icon" />
               </a>

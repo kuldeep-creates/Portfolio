@@ -1,26 +1,3 @@
 /* FloatingIcons.css */
 
-.sun-noise-bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(circle at 50% 40%, #3024da, #153ce9, #1628b2, #0435a8);
-    z-index: -1;
-    overflow: hidden;
-  }
-  
-  /* Noise texture overlay */
-  .sun-noise-bg::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGZpbHRlciBpZD0ibm9pc2UiPjxmZVR1cmJ1bGVuY2UgYmFzZUZyZXF1ZW5jeT0iMC41IiBudW1PY3RhdmVzPSIxMDAiIHN0aXRjaFRpbGVzPSJzdGl0Y2giLz48L2ZpbHRlcj48cmVjdCB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbHRlcj0idXJsKCNub2lzZSkiLz48L3N2Zz4=");
-    opacity: 0.15; /* noise intensity */
-    pointer-events: none;
-  }
-  
+/* Styles removed to align with the new theme. */

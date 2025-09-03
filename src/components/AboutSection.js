@@ -75,7 +75,8 @@ const AboutSection = () => {
           </div>
 
           <p>
-            I’m a code enthusiast focused on crafting elegant, efficient solutions. I enjoy turning complex ideas into intuitive, high‑quality experiences using modern web tech like React, Node.js and Python. Currently pursuing B.Tech at Jaipur Engineering College and exploring AI/ML.
+          I’M A CODE ENTHUSIAST FOCUSED ON CRAFTING ELEGANT, EFFICIENT SOLUTIONS. I ENJOY TURNING COMPLEX IDEAS INTO INTUITIVE, HIGH‑QUALITY EXPERIENCES USING MODERN WEB TECH LIKE REACT, NODE.JS AND PYTHON. CURRENTLY PURSUING B.TECH AT JAIPUR ENGINEERING COLLEGE AND EXPLORING AI/ML.
+          
           </p>
 
           <div className="about__cta">

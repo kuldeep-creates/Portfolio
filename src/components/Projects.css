@@ -17,7 +17,7 @@
   font-size: clamp(2.4rem, 5vw, 3.2rem);
   line-height: 1.15;
   margin: 0 0 4rem;
-  color: var(--color-primary);
+  color: var(--color-text);
 }
 
 .portfolio__item {
@@ -25,7 +25,7 @@
   padding: 1.25rem;
   border-radius: 2rem;
   border: 1px solid var(--color-border);
-  transition: var(--transition);
+  transition: transform 0.3s ease, background 0.3s ease, border-color 0.3s ease;
   display: flex;
   flex-direction: column;
   height: 100%; /* force equal height */
@@ -33,7 +33,7 @@
 
 .portfolio__item:hover {
   border-color: var(--color-primary);
-  background: var(--color-primary-variant);
+  background: rgba(199, 161, 122, 0.05); /* Subtle gold tint on hover */
 }
 
 /* Image area */
@@ -68,8 +68,7 @@
 }
 
 .portfolio__item-content p {
-  font-family: var(--font-body);
-  color: var(--color-light);
+  color: var(--color-text-alt);
   line-height: 1.6;
   margin-bottom: 1.25rem;
 
@@ -78,6 +77,7 @@
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   text-align: left;
 }

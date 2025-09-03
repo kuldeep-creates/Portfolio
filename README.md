@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the source code for my personal portfolio, built from scratch using React. The purpose of this project is to showcase my skills, projects, and provide a point of contact.
 
-## Available Scripts
+## 🚀 Project Overview
 
-In the project directory, you can run:
+This is a single-page application (SPA) built with **React** and **React Router**. The main page is a comprehensive layout featuring several distinct sections:
 
-### `npm start`
+*   **Hero Section:** An advanced, engaging introduction.
+*   **About Me:** A detailed section about my background and skills.
+*   **Projects:** A showcase of my work.
+*   **Skills:** A list of my technical proficiencies.
+*   **Contact:** A form or information to get in touch.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The application also includes separate, dedicated pages for a **LeetCode activity explorer**, a **CodeForces profile page**, and individual **project detail pages**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+*   **Core:** React, React Router
+*   **Styling:** CSS3 (with custom animations and responsive design)
+*   **Analytics:** Vercel Analytics
+*   **Deployment:** Vercel (or specify your provider)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Key Features
 
-### `npm run build`
+*   **Component-Based Architecture:** The app is divided into reusable components like `NavigationBar`, `HeroAdvanced`, `AboutSection`, `Projects`, etc., for maintainability.
+*   **Client-Side Routing:** `React Router` is used to manage navigation between the main layout and separate pages like `LeetCodeExplorer` and `ProjectPage`.
+*   **Smooth Scrolling:** A custom hook ensures smooth navigation to different sections on the main page.
+*   **Dynamic Project Pages:** The `/project/:id` route allows for dynamically generated pages for each project.
+*   **Responsive Design:** The UI is fully responsive and adapts to various screen sizes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get a local copy up and running, follow these simple steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+You need to have Node.js and npm installed on your machine.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1.  Clone the repo
+    ```sh
+    git clone https://github.com/your-username/codespire.git
+    ```
+2.  Install NPM packages
+    ```sh
+    npm install
+    ```
+3.  Run the development server
+    ```sh
+    npm start
+    ```
+    The application will be available at `http://localhost:3000`.

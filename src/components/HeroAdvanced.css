@@ -50,7 +50,7 @@
   margin-bottom: 2.5rem;
   max-width: 640px;
   font-weight: 300;
-  color: var(--color-light);
+  color: var(--color-text-alt);
   line-height: 1.7;
 }
 
@@ -59,13 +59,13 @@
   flex-direction: column;
   gap: 0.4rem;
   align-items: flex-start;
-  color: var(--color-light);
+  color: var(--color-text-alt);
   margin: 0.5rem 0 1.75rem;
   font-size: 0.95rem;
 }
 
 .hero-meta .meta-item {
-  color: var(--color-light);
+  color: var(--color-text-alt);
   text-decoration: none;
   letter-spacing: 0.02em;
   display: inline-flex;
@@ -99,6 +99,25 @@
   align-items: center;
 }
 
+.hero-cta .btn {
+  font-size: 1rem;
+  padding: 0.8rem 1.6rem;
+  border-radius: 15px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  background: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.hero-cta .btn:hover {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
 .btn-secondary {
   background-color: transparent;
   color: var(--color-text);
@@ -106,7 +125,7 @@
 }
 
 .btn-secondary:hover {
-  background-color: var(--color-primary-variant);
+  background-color: rgba(199, 161, 122, 0.1);
 }
 
 .cta-icon {
@@ -116,11 +135,12 @@
 
 .btn:hover .cta-icon,
 .btn:focus-visible .cta-icon {
+  color: var(--color-bg);
   transform: translateX(4px);
 }
 
 .btn:focus-visible {
-  outline: 2px solid var(--color-primary-variant);
+  outline: 2px solid var(--color-primary);
   outline-offset: 2px;
 }
 
@@ -136,7 +156,7 @@
   width: 350px;
   height: 350px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px var(--color-primary-variant), 0 0 80px -10px var(--color-primary);
+  box-shadow: 0 0 0 2px var(--color-border), 0 0 80px -5px rgba(201, 208, 247, 0.15);
 }
 
 .profile-image {
@@ -145,7 +165,7 @@
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.3);
-  border: 3px solid var(--color-white);
+  border: 3px solid var(--color-bg-variant);
 }
 
 
