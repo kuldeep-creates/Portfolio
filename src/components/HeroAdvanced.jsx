@@ -3,7 +3,7 @@ import { gsap } from 'gsap';
 import './HeroAdvanced.css';
 import { FiArrowRight, FiFile, FiMail, FiGithub, FiMapPin } from 'react-icons/fi';
 import profilePic from '../assets/profile.jpg';
-import cvPdf from '../assets/CV.pdf';
+import cvPdf from '../assets/KULDEEP_CV.pdf';
 
 const MagneticButton = ({ children, ...props }) => {
   const buttonRef = useRef(null);
