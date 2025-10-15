@@ -26,14 +26,16 @@ const data = [
     title: 'Textify',
     image: textify,
     description: 'Textify is a simple and efficient tool to Text case converter.',
-    github: 'https://github.com/kuldeep-creates/Textify'
+    github: 'https://github.com/kuldeep-creates/Textify',
+    Weblink  : 'https://textify.kuldeep.space/'    
   },
   {
     id: 4,
     title: 'TestEdge',
     image: textedge,
     description: 'A comprehensive online testing platform built with React and Firebase, featuring real-time monitoring, automated grading, and comprehensive admin controls.',
-    github: 'https://github.com/kuldeep-creates/Testify'
+    github: 'https://github.com/kuldeep-creates/Testify',
+    Weblink  : 'https://testedge.live/'    
   },{
     id: 5,
     title: 'Tic Tac Toe',
@@ -49,7 +51,7 @@ const ProjectsPage = () => {
       <h2>MY RECENT WORK</h2>
 
       <div className="container portfolio__container">
-        {data.map(({ id, title, description, image, github }) => (
+        {data.map(({ id, title, description, image, github, Weblink }) => (
           <article key={id} className="portfolio__item">
             <div className="portfolio__item-image">
               <img src={image} alt={`Preview of ${title}`} />
@@ -68,6 +70,16 @@ const ProjectsPage = () => {
                 >
                   GitHub
                 </a>
+                {Weblink && (
+                  <a
+                    href={Weblink}
+                    className="btn btn-primary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Go To Website
+                  </a>
+                )}
               </div>
             </div>
           </article>
