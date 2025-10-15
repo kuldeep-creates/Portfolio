@@ -4,7 +4,7 @@ import attendenceSystem from '../assets/Attandence.jpeg';
 import peerPlaces from '../assets/PeerPlaces.png';
 import textify from '../assets/Textify.jpeg';
 import ticTacToe from '../assets/tic_tac_toe.png';
-import textedge from '../assets/textedge.png';
+import textedge from '../assets/Testedge.png';
 
 const data = [
   {
@@ -30,10 +30,10 @@ const data = [
   },
   {
     id: 4,
-    title: 'Textedge',
+    title: 'TestEdge',
     image: textedge,
     description: 'A comprehensive online testing platform built with React and Firebase, featuring real-time monitoring, automated grading, and comprehensive admin controls.',
-    github: 'https://github.com/kuldeep-creates/Textedge'
+    github: 'https://github.com/kuldeep-creates/Testify'
   },{
     id: 5,
     title: 'Tic Tac Toe',
