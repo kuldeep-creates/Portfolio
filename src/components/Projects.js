@@ -3,6 +3,8 @@ import './Projects.css';
 import attendenceSystem from '../assets/Attandence.jpeg';
 import peerPlaces from '../assets/PeerPlaces.png';
 import textify from '../assets/Textify.jpeg';
+import ticTacToe from '../assets/tic_tac_toe.png';
+import textedge from '../assets/textedge.png';
 
 const data = [
   {
@@ -25,6 +27,19 @@ const data = [
     image: textify,
     description: 'Textify is a simple and efficient tool to Text case converter.',
     github: 'https://github.com/kuldeep-creates/Textify'
+  },
+  {
+    id: 4,
+    title: 'Textedge',
+    image: textedge,
+    description: 'A comprehensive online testing platform built with React and Firebase, featuring real-time monitoring, automated grading, and comprehensive admin controls.',
+    github: 'https://github.com/kuldeep-creates/Textedge'
+  },{
+    id: 5,
+    title: 'Tic Tac Toe',
+    image: ticTacToe,
+    description: 'A simple implementation of the classic Tic Tac Toe game.',
+    github: 'https://github.com/kuldeep-creates/TIC-TAC-TOE'
   }
 ];
 
